@@ -1,17 +1,17 @@
-import React, {Component} from 'react'
-import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
-import {Form, Button} from 'react-bootstrap';
+import React, { Component } from "react";
+import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import { Form, Button } from "react-bootstrap";
 
 class Contact extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: '',
-      email: '',
-      message: '',
+      name: "",
+      email: "",
+      message: "",
       disabled: false,
       emailSent: null,
-    }
+    };
   }
 
   handleChange = (event) => {
@@ -20,19 +20,16 @@ class Contact extends Component {
     const value = target.type === "checkbox" ? target.checked : target.value;
     const name = target.name;
     this.setState({
-      [name]: value
+      [name]: value,
     });
   };
 
-handleSubmit =(event) =>{
-  event.preventDefault();
-  this.setState({
-    disabled: true,
-  })
-}
-
-
-
+  handleSubmit = (event) => {
+    event.preventDefault();
+    this.setState({
+      disabled: true,
+    });
+  };
 
   render() {
     return (
@@ -86,11 +83,20 @@ handleSubmit =(event) =>{
 
         <Grid>
           <Cell col={12}>
-            <div>
+            <div className="contact-form">
               <h1>Contact Me</h1>
               <Form onSubmit={this.handleSubmit}>
                 <Form.Group>
-                  <Form.Label htmlFor="full-name"> Full name</Form.Label>
+                  <Form.Label
+                    htmlFor="full-name"
+                    style={{
+                      fontSize: "30px",
+                      fontFamily: "Anton",
+                      paddingRight: "20px",
+                    }}
+                  >
+                    Full name
+                  </Form.Label>
                   <Form.Control
                     id="full-name"
                     name="name"
@@ -101,7 +107,17 @@ handleSubmit =(event) =>{
                 </Form.Group>
 
                 <Form.Group>
-                  <Form.Label htmlFor="email"> Email</Form.Label>
+                  <Form.Label
+                    htmlFor="email"
+                    style={{
+                      fontSize: "30px",
+                      fontFamily: "Anton",
+                      paddingRight: "30px",
+                    }}
+                  >
+                    {" "}
+                    Email
+                  </Form.Label>
                   <Form.Control
                     id="email"
                     name="email"
@@ -111,7 +127,13 @@ handleSubmit =(event) =>{
                   />
                 </Form.Group>
                 <Form.Group>
-                  <Form.Label htmlFor="message"> Message</Form.Label>
+                  <Form.Label htmlFor="message" 
+                  style={{
+                      fontSize: "30px",
+                      fontFamily: "Anton",
+                      paddingRight: "20px",
+                    }}> 
+                    Message</Form.Label>
                   <Form.Control
                     id="message"
                     name="message"
