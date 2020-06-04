@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
-import { Form, Button } from "react-bootstrap";
-
+import ContactCard from "./ContactCard";
 class Contact extends Component {
   constructor(props) {
     super(props);
@@ -80,88 +79,9 @@ class Contact extends Component {
             </div>
           </Cell>
         </Grid>
+      <ContactCard />
 
-        <Grid>
-          <Cell col={12}>
-            <div className="contact-form">
-              <h1>Contact Me</h1>
-              <Form onSubmit={this.handleSubmit}>
-                <Form.Group>
-                  <Form.Label
-                    htmlFor="full-name"
-                    style={{
-                      fontSize: "30px",
-                      fontFamily: "Anton",
-                      paddingRight: "20px",
-                    }}
-                  >
-                    Full name
-                  </Form.Label>
-                  <Form.Control
-                    id="full-name"
-                    name="name"
-                    type="text"
-                    value={this.state.name}
-                    onChange={this.handleChange}
-                  />
-                </Form.Group>
 
-                <Form.Group>
-                  <Form.Label
-                    htmlFor="email"
-                    style={{
-                      fontSize: "30px",
-                      fontFamily: "Anton",
-                      paddingRight: "30px",
-                    }}
-                  >
-                    {" "}
-                    Email
-                  </Form.Label>
-                  <Form.Control
-                    id="email"
-                    name="email"
-                    type="text"
-                    value={this.state.email}
-                    onChange={this.handleChange}
-                  />
-                </Form.Group>
-                <Form.Group>
-                  <Form.Label htmlFor="message" 
-                  style={{
-                      fontSize: "30px",
-                      fontFamily: "Anton",
-                      paddingRight: "20px",
-                    }}> 
-                    Message</Form.Label>
-                  <Form.Control
-                    id="message"
-                    name="message"
-                    as="textarea"
-                    row="8"
-                    value={this.state.message}
-                    onChange={this.handleChange}
-                  />
-                </Form.Group>
-                <Button
-                  className="d-inline-block"
-                  variant="primary"
-                  type="submit"
-                  disabled={this.state.disabled}
-                >
-                  Send
-                </Button>
-
-                {this.state.emailSent === true && (
-                  <p className="d-inline success-msg">Email Sent</p>
-                )}
-                {this.state.emailSent === false && (
-                  <p className="d-inline err-msg">Email Not Sent</p>
-                )}
-              </Form>
-            </div>
-          </Cell>
-        </Grid>
       </div>
     );
   }
