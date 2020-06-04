@@ -23,8 +23,8 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <div className="projects-grid">
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+        <div className="projects-grid" >
+          <Card shadow={836} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "black",
@@ -84,7 +84,7 @@ class Projects extends Component {
             <CardActions border>
               <Button colored><a href="url">Github</a></Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
+            <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
