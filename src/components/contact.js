@@ -1,28 +1,30 @@
 import React, { Component } from "react";
-import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
-import ContactCard from "./ContactCard";
+import {  List, ListItem, ListItemContent } from "react-mdl";
+import {Container,Row,Col} from 'react-bootstrap';
+
 class Contact extends Component {
  
 
   render() {
     return (
-      <div className=" contact-body">
-        <Grid className=" contact-grid">
-          <Cell col={6}>
-            <h2>Austine Gomez</h2>
+      <div className="contact-body">
+        <Container className=" contact-grid">
+          <Row>
+          <Col >
             <img
               src="https://ag2portfolio.herokuapp.com/images/avataaars.png"
               alt="avatar"
               style={{ height: "250px" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              filllllllllllllllllllllllllllllllll
+              <h1>Austine Gomez</h1>
             </p>
-          </Cell>
-          <Cell col={6}>
+          </Col>
+          </Row>
+          <Row>
+          
+          <Col >
             <h2>Contact Me</h2>
-            <hr />
-
             <div className="contact-list">
               <List>
                 <ListItem>
@@ -46,16 +48,14 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-linkedin" aria-hidden="true" />
-                    linkedin.com/in/austine-gomez
+                    <a href="http://linkedin.com/in/austine-gomez">linkedin.com/in/austine-gomez</a> 
                   </ListItemContent>
                 </ListItem>
               </List>
             </div>
-          </Cell>
-        </Grid>
-      <ContactCard />
-
-
+          </Col>
+          </Row>
+        </Container>
       </div>
     );
   }

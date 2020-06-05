@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
-import {Grid, Cell} from 'react-mdl';
+import {Container, Col} from 'react-bootstrap';
 
 
 class Landing extends Component {
   render() {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
-        <Grid className="landing-grid">
-          <Cell col={12}>
+        <Container className="landing-grid">
+          <Col md={12}>
             <img
               src="https://ag2portfolio.herokuapp.com/images/avataaars.png"
               alt="avatar"
@@ -51,8 +51,8 @@ class Landing extends Component {
 
               </div>
             </div>
-          </Cell>
-        </Grid>
+          </Col>
+        </Container>
       </div>
     );
   }
