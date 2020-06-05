@@ -48,7 +48,7 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-linkedin" aria-hidden="true" />
-                    <a href="http://linkedin.com/in/austine-gomez">linkedin.com/in/austine-gomez</a> 
+                    <a className="link"href="http://linkedin.com/in/austine-gomez">linkedin.com/in/austine-gomez</a> 
                   </ListItemContent>
                 </ListItem>
               </List>

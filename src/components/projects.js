@@ -23,8 +23,8 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <div className="projects-grid" >
-          <Card shadow={836} style={{ minWidth: "450", margin: "auto" }}>
+        <div className="projects-grid">
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "black",
@@ -49,14 +49,15 @@ class Projects extends Component {
             <CardTitle
               style={{
                 color: "black",
-                height: "176px",
+                height: "160px",
+                fontSize: 12,
                 background:
                   "url(http://ag2portfolio.herokuapp.com/images/burger.jpg)center/ cover",
               }}
             >
               Eat-Da-Burger
             </CardTitle>
-            <CardText>Application for logging Burgers eaten using MySQL, Node, Express, Handlebars and a homemade ORM. added NES.CSS
+            <CardText>Application  using MySQL, Node, Express, Handlebars, homemade ORM, NES.CSS
               Deployed with JawsDB on Heroku</CardText>
             <CardActions border>
               <Button colored>Github</Button>
@@ -84,7 +85,7 @@ class Projects extends Component {
             <CardActions border>
               <Button colored><a href="url">Github</a></Button>
             </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
+            <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
@@ -111,26 +112,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
           
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://ag2portfolio.herokuapp.com/images/workout.jpg)center/ cover",
-              }}
-            >
-              Workout Tracker
-            </CardTitle>
-            <CardText>Application for tracking workouts using a Mongo database with a Mongoose schema and handles routes with Express</CardText>
-            <CardActions border>
-              <Button colored><a href="url">Github</a></Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-
+      
         </div>
       );
     } else if (this.state.activeTab === 1) {
@@ -166,7 +148,7 @@ class Projects extends Component {
               color: "#fff",
               height: "176px",
               background:
-                "url(https://ag2portfolio.herokuapp.com/images/station.jpg)center/ cover",
+                "url(https://ag2portfolio.herokuapp.com/images/karikari.jpg?crop=entropy&fit=crop&fm=jpg)center/ cover",
             }}
           >
             KariKari
@@ -184,15 +166,15 @@ class Projects extends Component {
         <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
           <CardTitle
             style={{
-              color: "#fff",
+              color: "black",
               height: "176px",
               background:
-                "url(https://ag2portfolio.herokuapp.com/images/workout.jpg)center/ cover",
+                "url()center/ cover",
             }}
           >
             React Project
           </CardTitle>
-          <CardText>Application for tracking workouts</CardText>
+          <CardText>Current project in the works</CardText>
           <CardActions border>
             <Button colored><a href="url">Github</a></Button>
           </CardActions>
