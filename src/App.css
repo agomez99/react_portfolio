@@ -123,7 +123,16 @@
   border-style: solid;
   border-color: rgb(199, 194, 194);
   border-width: 1px;
+  text-align:center;
 
+
+}
+
+
+a.card-link{
+  padding :20px;
+  font-size: 1vw;
+  color:black;
 }
 
 .projects {
@@ -138,3 +147,4 @@
 .col {
   padding: 5px;
 }
+
