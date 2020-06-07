@@ -23,39 +23,39 @@ class Projects extends Component {
                 <Card.Body>
                   <Card.Title
                     style={{
-                      height: "176px",
+                      height: "200px",
                       background:
-                        "url(https://ag2portfolio.herokuapp.com/images/note.jpg)center/ cover",
+                        "url(images/reactEmployee.jpg)center/ cover",
                     }}>
             </Card.Title>
                   <h4>Employee Diectory</h4>
           
                   <Card.Text>Application for searching employess in a table using React hooks</Card.Text>
-                  <Card.Link href="#">Github</Card.Link>
-                  <Card.Link href="#">Deployment</Card.Link>
+                  <Card.Link href="https://github.com/agomez99/employee_directory_react">Github</Card.Link>
+                  <Card.Link href="https://priceless-shockley-44e876.netlify.app/">Deployment</Card.Link>
                   </Card.Body>
                 </Card>
 
                 <Card style={{ width: '30rem' }}>
                   <Card.Title
                     style={{
-                      height: "176px",
+                      height: "200px",
                       background:
-                        "url(http://ag2portfolio.herokuapp.com/images/burger.jpg)center/ cover",
+                        "url(images/budget.jpg)center/ cover",
                     }}>
             </Card.Title>
             <h4>Budget Tracker</h4>
                   <Card.Text>Application  managing a budget</Card.Text>
-                  <Card.Link href="https://github.com/agomez99/Eat-Da-Burger">Github</Card.Link>
-                  <Card.Link href="https://powerful-falls-86472.herokuapp.com/">Deployment</Card.Link>                
+                  <Card.Link href="https://github.com/agomez99/budget_tracker">Github</Card.Link>
+                  <Card.Link href="https://budgetrakker.herokuapp.com">Deployment</Card.Link>                
                   </Card>
 
                 <Card style={{ width: '30rem' }}>
                   <Card.Title
                     style={{
-                      height: "176px",
+                      height: "200px",
                       background:
-                        "url(https://ag2portfolio.herokuapp.com/images/workout.jpg)center/ cover",
+                        "url(images/workout.jpg)center/ cover",
                     }}>
             </Card.Title>
             <h4>Workout Tracker</h4>
@@ -72,9 +72,9 @@ class Projects extends Component {
                 <Card style={{ width: '30rem' }}>
                   <Card.Title
                     style={{
-                      height: "176px",
+                      height: "200px",
                       background:
-                        "url(https://ag2portfolio.herokuapp.com/images/note.jpg)center/ cover",
+                        "url(images/note.jpg)center/ cover",
                     }}>
             </Card.Title>
                   <Card.Text>Application for taking notes with ExpressJS</Card.Text>
@@ -85,27 +85,26 @@ class Projects extends Component {
                 <Card style={{ width: '30rem' }}>
                   <Card.Title
                     style={{
-                      height: "176px",
+                      height: "200px",
                       background:
-                        "url(http://ag2portfolio.herokuapp.com/images/tracker.jpg)center/ cover",
+                        "url(images/tracker.jpg)center/ cover",
                     }}>
             </Card.Title>
                   <Card.Text>An Application for tracking an companys employees</Card.Text>
-              <Card.Link href="#">Github</Card.Link>
-                  <Card.Link href="#">Deployment</Card.Link>
+              <Card.Link href="https://github.com/agomez99/Employee-Tracker">Github</Card.Link>
                 </Card>
 
                 <Card style={{ width: '30rem' }}>
                   <Card.Title
                     style={{
-                      height: "176px",
+                      height: "200px",
                       background:
-                        "url(http://ag2portfolio.herokuapp.com/images/day.jpg)center/ cover",
+                        "url(images/day.jpg)center/ cover",
                     }}>
             </Card.Title>
                   <Card.Text>Application for a Daily Schedule tracking each hour</Card.Text>
-                  <Card.Link href="#">Github</Card.Link>
-                  <Card.Link href="#">Deployment</Card.Link>
+                  <Card.Link href="https://github.com/agomez99/Daily-Planner">Github</Card.Link>
+                  <Card.Link href="https://dailyplanner2020.herokuapp.com">Deployment</Card.Link>
                 </Card>
               </Col>
             </Row>
@@ -119,9 +118,9 @@ class Projects extends Component {
             <Card style={{ width: '30rem' }}>
                   <Card.Title
                     style={{
-                      height: "176px",
+                      height: "200px",
                       background:
-                        "url(http://ag2portfolio.herokuapp.com/images/burger.jpg)center/ cover",
+                        "url(images/burger.jpg)center/ cover",
                     }}>
             </Card.Title>
             <h4>Eat Da Burger</h4>
@@ -147,30 +146,30 @@ class Projects extends Component {
                 <Card style={{ width: '30rem' }}>
                   <Card.Title
                     style={{
-                      height: "190px",
+                      height: "200px",
                       background:
-                        "url(https://ag2portfolio.herokuapp.com/images/station.jpg)center/ cover",
+                        "url(images/station.jpg)center/ cover",
                     }}>
             </Card.Title>
                   <h4>Station Trak</h4>
                   <Card.Text>Application for trakcking the ISS using the API</Card.Text>
-                  <Card.Link href="#">Github</Card.Link>
-                  <Card.Link href="#">Deployment</Card.Link>
+                  <Card.Link href="https://github.com/agomez99/ISS-Satellite-Tracker">Github</Card.Link>
+                  <Card.Link href="https://agomez99.github.io/ISS-Satellite-Tracker/">Deployment</Card.Link>
                 </Card>
 
                 <Card style={{ width: '30rem' }}>
                   <Card.Title
                     style={{
-                      height: "176px",
+                      height: "200px",
                       background:
-                        "url(https://ag2portfolio.herokuapp.com/images/karikari.jpg?crop=entropy&fit=crop&fm=jpg)center/ cover",
+                        "url(images/karikari.jpg)center/ cover",
                     }}>
             </Card.Title>
                     <h4>KariKari</h4>
 
                   <Card.Text>Pictionary type drawing online game using SocketIO</Card.Text>
-                  <Card.Text><Button colored><a href="url">Github</a></Button></Card.Text>
-                  <Card.Text><Button colored><a href="url">Deployment</a></Button></Card.Text>
+                  <Card.Text><Button colored><a href="https://github.com/agomez99/Project2Game">Github</a></Button></Card.Text>
+                  <Card.Text><Button colored><a href="https://karikari.herokuapp.com/">Deployment</a></Button></Card.Text>
                 </Card>
               </Col>
             </Row>
