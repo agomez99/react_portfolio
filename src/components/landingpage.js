@@ -16,7 +16,7 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
 
-              <p>HTML/CSS | Javascript| NodeJS</p>
+              <p>HTML/CSS | Javascript | NodeJS</p>
               <div className="social-links">
                 <a
                   href="https://www.linkedin.com/in/austine-gomez/"
