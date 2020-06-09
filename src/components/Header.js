@@ -9,7 +9,7 @@ class Header extends Component {
         return (
             <div >
                 <Navbar className="header-color" >
-                    <Navbar.Brand href="#home" >Austine Gomez</Navbar.Brand>
+                    <Navbar.Brand href="/" >Austine Gomez</Navbar.Brand>
                     <Nav className="justify-content-end" style={{ width: "100%" }}>
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/aboutme">About Me</Nav.Link>

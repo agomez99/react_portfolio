@@ -3,16 +3,15 @@ import ModalFooter from "react-bootstrap/ModalFooter"
 
 
 
-
 class Footer extends Component {
     render() {
         return (
             <div >
                 <ModalFooter 
 
-                
                 className="modul-foot" >
-                Footer
+                <a href="/">Home</a>
+
                 </ModalFooter>
             </div>
 
