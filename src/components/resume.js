@@ -3,8 +3,8 @@ import React, {Component} from 'react'
 class Resume extends Component {
   render() {
     return (
-      <div>
-        <h1>Resume Page</h1>
+      <div >
+        <object  color="black" width="100%" height="1000" data="https://drive.google.com/file/d/1gEyzEj-VWCSKjQSu1TRtDOYa_4fT72am/preview" type="application/pdf">   </object>
       </div>
     )
   }
