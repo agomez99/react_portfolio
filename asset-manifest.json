@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/agomez99/react_portfolio/static/css/main.ffe8f681.chunk.css",
+    "main.js": "/agomez99/react_portfolio/static/js/main.485f63e5.chunk.js",
+    "main.js.map": "/agomez99/react_portfolio/static/js/main.485f63e5.chunk.js.map",
+    "runtime-main.js": "/agomez99/react_portfolio/static/js/runtime-main.f0ca3888.js",
+    "runtime-main.js.map": "/agomez99/react_portfolio/static/js/runtime-main.f0ca3888.js.map",
+    "static/css/2.e4346227.chunk.css": "/agomez99/react_portfolio/static/css/2.e4346227.chunk.css",
+    "static/js/2.8d30cdea.chunk.js": "/agomez99/react_portfolio/static/js/2.8d30cdea.chunk.js",
+    "static/js/2.8d30cdea.chunk.js.map": "/agomez99/react_portfolio/static/js/2.8d30cdea.chunk.js.map",
+    "index.html": "/agomez99/react_portfolio/index.html",
+    "precache-manifest.d47166ad0f4420f1c669562d31313926.js": "/agomez99/react_portfolio/precache-manifest.d47166ad0f4420f1c669562d31313926.js",
+    "service-worker.js": "/agomez99/react_portfolio/service-worker.js",
+    "static/css/2.e4346227.chunk.css.map": "/agomez99/react_portfolio/static/css/2.e4346227.chunk.css.map",
+    "static/css/main.ffe8f681.chunk.css.map": "/agomez99/react_portfolio/static/css/main.ffe8f681.chunk.css.map",
+    "static/js/2.8d30cdea.chunk.js.LICENSE.txt": "/agomez99/react_portfolio/static/js/2.8d30cdea.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f0ca3888.js",
+    "static/css/2.e4346227.chunk.css",
+    "static/js/2.8d30cdea.chunk.js",
+    "static/css/main.ffe8f681.chunk.css",
+    "static/js/main.485f63e5.chunk.js"
+  ]
+}
