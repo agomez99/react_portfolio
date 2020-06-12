@@ -15,10 +15,10 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <div  >
+        <div className="project-section" >
           <Container className="projects">
-            <Row>
-              <Col  style={{ display: 'flex', margin: "auto", flexDirection: 'row', }}>
+            <Row className="project-section"  >
+              <Col style={{ display: 'flex', margin: "auto", flexDirection: 'row', }}>
                 <Card style={{ width: '30rem' }}>
                 <Card.Body>
                   <Card.Title

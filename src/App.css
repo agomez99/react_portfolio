@@ -1,5 +1,19 @@
 
+body {
+  display: flex;
+  flex-direction: column; /* creates rows out of the elements main and footer */
+  height: 100vh; 
+  margin:0;
+  background: #159957;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align:center;
 
+}
+
+main {
+  flex: 1 0 auto; /* allows the content to grow but not shrink */
+}
 
 .link {
   color: black
@@ -20,6 +34,12 @@
   padding:10px;
 }
 
+.navbar{ 
+  margin-bottom:0;
+  margin:0;
+  border-radius: 0;
+}
+
 a.nav-link, a.navbar-brand{
   color: white;
   padding:15px;
@@ -33,8 +53,9 @@ a.nav-link:hover{
 }
 
 .landing-grid {
-  background: white;  /* fallback for old browsers */
-  text-align: center;
+  background: #159957;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  text-align: center;
   top: 0;
   left: 0;
   width: 100%;
@@ -58,7 +79,7 @@ a.nav-link:hover{
 }
 
 .banner-text h1 {
-  font-size: 56px;
+  font-size: 50px;
   font-weight: bold;
   color: white;
 }
@@ -72,7 +93,7 @@ a.nav-link:hover{
 }
 
 .social-links {
-  display: flex;
+  display:block;
   justify-content: space-between;
   width: 50%;
   margin: auto;
@@ -164,8 +185,11 @@ a.card-link{
 .projects {
   margin-left: auto;
   margin-right: auto;
+  background: white;
 }
-
+.category-tabs{
+background-color:white;
+}
 .row {
   padding: 5px;
 }
@@ -175,15 +199,18 @@ a.card-link{
 }
 
 .modal-footer{
-  position: absolute;
+  position: fixed;
+
   background: #159957;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  text-align: right;
+  text-align:center;
   font-size: 1.5rem;
   padding-top:5%;
   padding:35px;
   width: 100%;
+border-top: 0;
+bottom: 0;
 
 }
 
