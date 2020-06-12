@@ -10,9 +10,9 @@ class Contact extends Component {
       <div className="contact-body">
         <Container className=" contact-grid">
           <Row>
-          <Col >
+          <Col className="name-avatar" >
             <img
-              src="https://ag2portfolio.herokuapp.com/images/avataaars.png"
+              src="../images/0.jpg"
               alt="avatar"
               style={{ height: "250px" }}
             />
@@ -23,7 +23,7 @@ class Contact extends Component {
           </Row>
           <Row>
           
-          <Col >
+          <Col className="name-avatar" >
             <h2>Contact Me</h2>
             <div className="contact-list">
               <List>

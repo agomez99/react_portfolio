@@ -9,7 +9,7 @@ class Landing extends Component {
         <Container className="landing-grid">
           <Col md={12}>
             <img
-              src="https://ag2portfolio.herokuapp.com/images/avataaars.png"
+              src="../images/avatar.png"
               alt="avatar"
               className="avatar-img"
             />

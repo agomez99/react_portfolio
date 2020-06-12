@@ -11,7 +11,6 @@ class Header extends Component {
                 <Navbar className="header-color" >
                     <Navbar.Brand href="/" >Austine Gomez</Navbar.Brand>
                     <Nav className="justify-content-end" style={{ width: "100%" }}>
-                        <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/aboutme">About Me</Nav.Link>
                         <Nav.Link href="/projects">Projects</Nav.Link>
                         <Nav.Link href="/resume">Resume</Nav.Link>

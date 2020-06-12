@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav'
 class Footer extends Component {
     render() {
         return (
-            <div  >
+            <div>
                 <ModalFooter>
                 <Nav.Link href="/">Home</Nav.Link> Austine Gomez 2020
                 </ModalFooter>
