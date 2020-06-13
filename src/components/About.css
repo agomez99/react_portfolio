@@ -1,10 +1,16 @@
 h1{
-    text-align:center
+    text-align:center;
+    color:white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .p1{
-    font-size: 2em;
-    margin-left:33.3%;
-    margin-right:33.3%;
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    margin-left:25%;
+    margin-right:25%;
+    color:white;
+    line-height: normal;
 
 }
+

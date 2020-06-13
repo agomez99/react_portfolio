@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Col, Row, Container, Card, Button } from 'react-bootstrap';
+import { Col, Row, Container, Card} from 'react-bootstrap';
 import '../App.css'
 import {
   Tabs,
@@ -15,7 +15,7 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <div className="project-section" >
+        <div >
           <Container className="projects">
             <Row className="project-section"  >
               <Col style={{ display: 'flex', margin: "auto", flexDirection: 'row', }}>
@@ -28,7 +28,7 @@ class Projects extends Component {
                         "url(images/reactEmployee.jpg)center/ cover",
                     }}>
             </Card.Title>
-                  <h4>Employee Diectory</h4>
+                  <h4>Employee Directory</h4>
           
                   <Card.Text>Application for searching employess in a table using React hooks</Card.Text>
                   <Card.Link href="https://github.com/agomez99/employee_directory_react">Github</Card.Link>
@@ -168,8 +168,8 @@ class Projects extends Component {
                     <h4>KariKari</h4>
 
                   <Card.Text>Pictionary type drawing online game using SocketIO</Card.Text>
-                  <Card.Text><Button colored><a href="https://github.com/agomez99/Project2Game">Github</a></Button></Card.Text>
-                  <Card.Text><Button colored><a href="https://karikari.herokuapp.com/">Deployment</a></Button></Card.Text>
+                  <Card.Link href="https://github.com/agomez99/Project2Game">Github</Card.Link>
+                  <Card.Link href="https://karikari.herokuapp.com/">Deployment</Card.Link>
                 </Card>
               </Col>
             </Row>

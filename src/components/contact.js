@@ -12,13 +12,11 @@ class Contact extends Component {
           <Row>
           <Col className="name-avatar" >
             <img
+              className="pic"
               src="../images/0.jpg"
               alt="avatar"
               style={{ height: "250px" }}
             />
-            <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              <h1>Austine Gomez</h1>
-            </p>
           </Col>
           </Row>
           <Row>
