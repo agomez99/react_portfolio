@@ -109,12 +109,8 @@ class Projects extends Component {
               </Col>
             </Row>
 
-
-
-
           <Row>
             <Col>
-
             <Card style={{ width: '30rem' }}>
                   <Card.Title
                     style={{
