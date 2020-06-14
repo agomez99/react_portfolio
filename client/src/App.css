@@ -1,5 +1,6 @@
 body {
   display: flex;
+  position:absolute;
   flex-direction: column;
   /* creates rows out of the elements main and footer */
   height: 100vh;
@@ -77,13 +78,13 @@ a.nav-link:hover {
 
 .avatar-img {
   height: 250px;
-  padding-top: 23px;
+  padding-top: 10px;
 }
 
 .banner-text {
   background-color: black;
   opacity: .8;
-  width: 50%;
+  width: 60%;
   margin: auto;
   border-radius: 10px;
 }
@@ -97,7 +98,6 @@ a.nav-link:hover {
 .banner-text p {
   color: white;
   font-size: 20px;
-  padding: 1em;
 }
 
 .social-links {
