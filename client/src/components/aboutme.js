@@ -19,7 +19,6 @@ class AboutMe extends Component {
       position: "all",
       color: ["random", "#ff0000"],
       cross: "dead",
-      // emitter: "follow",
       random:20
     };
 
