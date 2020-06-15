@@ -158,7 +158,7 @@ class Projects extends Component {
                     style={{
                       height: "200px",
                       background:
-                        "url(images/kari.jpg)center/ cover",
+                        "url(images/Kari.jpg)center/ cover",
                     }}>
             </Card.Title>
                     <h4>KariKari</h4>
