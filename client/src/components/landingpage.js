@@ -21,11 +21,10 @@ class Landing extends Component {
               className="avatar-img"
             />
             <div className="banner-text">
-
-
-      <PulseText text="Full Stack Web Developer"  duration={5000}iterationCount={1} renderText={renderText}>
-              <h1>Full Stack Web Developer</h1>
+      <PulseText text="Austine Gomez"  duration={5000}iterationCount={1} renderText={renderText}>
+              <h1>Austine Gomez</h1>
       </PulseText>
+              <h3 className="title">Full Stack Web Developer</h3>
               <p>HTML/CSS | Javascript | NodeJS</p>
               <div className="social-links">
                 <a
