@@ -45,7 +45,7 @@ class AboutMe extends Component {
       <div className="about">
         <ParticlesBg type="custom" config={config} bg={true} />
         <h1 className="p1">About me</h1>
-        <p className="p1">My name is Austine, I currently reside in Texas and I love to write code. 
+        <p className="p1">My name is Austine, I currently reside in SAn Antonio, Texas and I enjoy solving problems and love to write code. 
         I have bachelors degree in computer science and am currently enrolled in a full-stack web devlopment bootcamp. 
         </p>
       </div>
