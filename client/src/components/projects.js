@@ -110,7 +110,7 @@ class Projects extends Component {
             </Row>
 
           <Row>
-            <Col>
+          <Col style={{ display: 'flex', flexDirection: 'row', }}>
             <Card style={{ width: '30rem' }}>
                   <Card.Title
                     style={{
@@ -125,12 +125,38 @@ class Projects extends Component {
                   <Card.Link href="https://github.com/agomez99/Eat-Da-Burger">Github</Card.Link>
                   <Card.Link href="https://powerful-falls-86472.herokuapp.com/">Deployment</Card.Link>                
                   </Card>
-
+                  <Card style={{ width: '30rem' }}>
+                  <Card.Title
+                    style={{
+                      height: "200px",
+                      background:
+                        "url(images/quiz.jpg)center/ cover",
+                    }}>
+            </Card.Title>
+            <h4>Javascipt Quiz</h4>
+                  <Card.Text>A quiz built on vanilla Javascript and HTML</Card.Text>
+                  <Card.Link href="https://github.com/agomez99/Javascript-Quiz">Github</Card.Link>
+                  <Card.Link href="https://agomez99.github.io/Javascript-Quiz/">Deployment</Card.Link>                
+                  </Card>
+                  <Card style={{ width: '30rem' }}>
+                  <Card.Title
+                    style={{
+                      height: "200px",
+                      background:
+                        "url(images/weather.jpg)center/cover",
+                    }}>
+            </Card.Title>
+            <h4>Weather Dashboard</h4>
+                  <Card.Text>A Weather Dashboard built with Javascript</Card.Text>
+                  <Card.Link href="https://github.com/agomez99/Weather-Dashboard">Github</Card.Link>
+                  <Card.Link href="https://agomez99.github.io/Weather-Dashboard/">Deployment</Card.Link>                
+                  </Card>
                   </Col>
                 </Row>
 
           </Container>
         </div>
+        
       );
     } else if (this.state.activeTab === 1) {
       return (
