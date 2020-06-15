@@ -1,9 +1,16 @@
 import React, {Component} from 'react';
 import {Container, Col} from 'react-bootstrap';
-
+import PulseText from 'react-pulse-text';
+import '../App.css';
 
 class Landing extends Component {
   render() {
+    const renderText = (currentText, nextLetter, currentRawText) => (
+      nextLetter 
+      ? currentRawText + nextLetter + (currentText.length % 2 === 0 ? '_' : '')
+      : ''
+  );
+
     return (
       <div style={{ width: "100%", margin: "auto" }}>
         <Container className="landing-grid">
@@ -14,8 +21,11 @@ class Landing extends Component {
               className="avatar-img"
             />
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
 
+
+      <PulseText text="Full Stack Web Developer"  duration={5000}iterationCount={1} renderText={renderText}>
+              <h1>Full Stack Web Developer</h1>
+      </PulseText>
               <p>HTML/CSS | Javascript | NodeJS</p>
               <div className="social-links">
                 <a
