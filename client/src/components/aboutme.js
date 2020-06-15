@@ -20,7 +20,7 @@ class AboutMe extends Component {
       color: ["random", "#ff0000"],
       cross: "dead",
       // emitter: "follow",
-      random: 15
+      random:20
     };
 
     if (Math.random() > 0.85) {

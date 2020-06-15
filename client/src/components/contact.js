@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import {  List, ListItem, ListItemContent } from "react-mdl";
 import {Container,Row,Col} from 'react-bootstrap';
+import ParticlesBg from "particles-bg";
 
 class Contact extends Component {
  
@@ -8,6 +9,8 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact-body">
+       <ParticlesBg type="square" bg={true} />
+
         <Container className=" contact-grid">
           <Row>
           <Col className="name-avatar" >
