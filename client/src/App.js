@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Main from "./components/main";
 import Header from "./components/Header";
-import Footer from "./components/Footer"
+//import Footer from "./components/Footer"
 
 
 class App extends Component {
@@ -11,7 +11,6 @@ class App extends Component {
       <div >
         <Header />
         <Main />
-        <Footer />
       </div>
     );
   }
