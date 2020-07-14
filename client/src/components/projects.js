@@ -193,6 +193,20 @@ class Projects extends Component {
                   <Card.Link href="https://github.com/agomez99/Project2Game">Github</Card.Link>
                   <Card.Link href="https://karikari.herokuapp.com/">Deployment</Card.Link>
                 </Card>
+                <Card style={{ width: '30rem' }}>
+                  <Card.Title
+                    style={{
+                      height: "200px",
+                      background:
+                        "url(images/codesource.png)center/ cover",
+                    }}>
+            </Card.Title>
+                    <h4>CodeSource</h4>
+
+                  <Card.Text>A blog/tutorial site for coders</Card.Text>
+                  <Card.Link href="https://github.com/agomez99/CodeSource">Github</Card.Link>
+                  <Card.Link href="https://codesource2.herokuapp.com/">Deployment</Card.Link>
+                </Card>
               </Col>
             </Row>
           </Container>
