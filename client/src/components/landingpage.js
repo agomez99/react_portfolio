@@ -22,7 +22,7 @@ class Landing extends Component {
             />
             <div className="banner-text">
       <PulseText text="Austine Gomez"  duration={5000}iterationCount={1} renderText={renderText}>
-              <h1>Austine Gomez</h1>
+              <h1 className="avatarname">Austine Gomez</h1>
       </PulseText>
               <h3 className="title">Full Stack Web Developer</h3>
               <p>HTML/CSS | Javascript | NodeJS</p>
