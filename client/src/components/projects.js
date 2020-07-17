@@ -77,6 +77,8 @@ class Projects extends Component {
                         "url(images/note.jpg)center/ cover",
                     }}>
             </Card.Title>
+            <h4>Note Taker</h4>
+
                   <Card.Text>Application for taking notes with ExpressJS</Card.Text>
                   <Card.Link href="https://github.com/agomez99/Note-Taker">Github</Card.Link>
                   <Card.Link href="https://notestaker2020.herokuapp.com/">Deployment</Card.Link>
@@ -90,6 +92,8 @@ class Projects extends Component {
                         "url(images/tracker.jpg)center/ cover",
                     }}>
             </Card.Title>
+            <h4>Employee Tracker</h4>
+
                   <Card.Text>An Application for tracking an companys employees</Card.Text>
               <Card.Link href="https://github.com/agomez99/Employee-Tracker">Github</Card.Link>
                 </Card>
@@ -102,6 +106,7 @@ class Projects extends Component {
                         "url(images/day.jpg)center/ cover",
                     }}>
             </Card.Title>
+            <h4>Daily Scheduler</h4>
                   <Card.Text>Application for a Daily Schedule tracking each hour</Card.Text>
                   <Card.Link href="https://github.com/agomez99/Daily-Planner">Github</Card.Link>
                   <Card.Link href="https://dailyplanner2020.herokuapp.com">Deployment</Card.Link>
