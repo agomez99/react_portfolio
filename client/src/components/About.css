@@ -1,16 +1,35 @@
-h1{
-    text-align:center;
-    color:white;
-    font-family: 'Poppins', sans-serif;
+h1 {
+  text-align: center;
+  color: white;
+  font-family: "Pompiere", cursive;
 }
 
-.p1{
-    font-size: 3em;
-    font-family: 'Montserrat', sans-serif;
-    margin-left:25%;
-    margin-right:25%;
-    color:white;
-    line-height: normal;
+.p1 {
+  font-size: 6em;
+  font-family: "Pompiere", cursive;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 6%;
 
+  color: white;
+  line-height: normal;
 }
 
+.p2 {
+  font-size: 4em;
+  font-family: "Pompiere", cursive;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 6%;
+  margin-bottom:10%;
+  color: white;
+  line-height: normal;
+}
+.background {
+  background-color: black;
+  opacity: 0.6;
+  margin-left: 11%;
+  margin-right: 15%;
+  border-radius: 25px;
+  display: inline-block;
+}
