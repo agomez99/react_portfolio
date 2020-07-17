@@ -41,7 +41,7 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-envelope" aria-hidden="true" />
-                    agdevelop3r@gmail.com
+                    <a  className="link"href="mailto:agdevelop3r@gmail.com">agdevelop3r@gmail.com</a>
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
@@ -49,7 +49,7 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-linkedin" aria-hidden="true" />
-                    <a className="link"href="http://linkedin.com/in/austine-gomez">linkedin.com/in/austine-gomez</a> 
+                    <a className="link" href="http://linkedin.com/in/austine-gomez">linkedin.com/in/austine-gomez</a> 
                   </ListItemContent>
                 </ListItem>
               </List>
