@@ -70,7 +70,7 @@ a.nav-link:hover {
   height:100%;
 }
 .avatarname{
-  font:none;
+  font-family: 'Montserrat', sans-serif;
 }
 .avatar-img {
   height: 250px;
