@@ -207,13 +207,11 @@ a.card-link {
   background-color: white;
 }
 
-.row {
-  padding: 5px;
-}
-
 .col {
   padding: 5px;
   
 }
 
-
+.row {
+  padding: 5px;
+}

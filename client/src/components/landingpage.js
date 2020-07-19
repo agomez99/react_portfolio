@@ -42,8 +42,6 @@ class Landing extends Component {
                 >
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
-
-              
                 <a
                   href="https://twitter.com/austine_gomez"
                   rel="noopener noreferrer"
